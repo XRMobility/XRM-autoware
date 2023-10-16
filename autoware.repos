@@ -92,14 +92,26 @@ repositories:
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
+  sensor_kit/external/xrm_sensor_kit_launch:
+    type: git
+    url: https://github.com/XRMobility/xrm_sensor_kit_launch.git
+    version: main
   # vehicle
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
     version: main
+  vehicle/xrm_vehicle_launch:
+    type: git
+    url: https://github.com/XRMobility/xrm_vehicle_launch.git
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
+    version: main
+  vehicle/external/xrm_zmp_interface:
+    type: git
+    url: https://github.com/XRMobility/xrm_zmp_interface.git
     version: main
   # param
   param/autoware_individual_params:
@@ -110,4 +122,17 @@ repositories:
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git
+    version: main
+  # sensors
+  sensors/external/xrm_imugnss_ros2_driver:
+    type: git
+    url: https://github.com/XRMobility/xrm_imugnss_ros2_driver.git
+    version: main
+  sensors/external/rslidar_msg:
+    type: git
+    url: https://github.com/XRMobility/rslidar_msg.git
+    version: main
+  sensors/external/rslidar_sdk:
+    type: git
+    url: https://github.com/XRMobility/rslidar_sdk.git
     version: main
