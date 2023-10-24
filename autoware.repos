@@ -84,31 +84,31 @@ repositories:
     url: https://github.com/MapIV/transport_drivers.git
     version: boost
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
-    type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
+  #sensor_kit/sample_sensor_kit_launch:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+  #  version: main
+  #sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
+  #  type: git
+  # url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
+  #  version: main
   sensor_kit/external/xrm_sensor_kit_launch:
     type: git
     url: https://github.com/XRMobility/xrm_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/sample_vehicle_launch:
-    type: git
-    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: main
+  #vehicle/sample_vehicle_launch:
+  #  type: git
+  #  url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+  #  version: main
   vehicle/xrm_vehicle_launch:
     type: git
     url: https://github.com/XRMobility/xrm_vehicle_launch.git
     version: main
-  vehicle/external/pacmod_interface:
-    type: git
-    url: https://github.com/tier4/pacmod_interface.git
-    version: main
+  # vehicle/external/pacmod_interface:
+  #  type: git
+  #  url: https://github.com/tier4/pacmod_interface.git
+  #  version: main
   vehicle/external/xrm_zmp_interface:
     type: git
     url: https://github.com/inusturbo/xrm_zmp_interface.git
